@@ -13,7 +13,7 @@
 采用了Spark MLlib中的线性回归模型来预测每日的资金流入量和流出量。采用了时间相关特征，包括年份、月份、日期和星期几，以捕捉数据中的时间模式。通过使用所有的历史数据进行训练，递归地预测了2014年9月份的每日流入和流出量，运行结果存储在task3_result中，最终提交的文件为task3_result/tc_comp_predict_table.csv。提交结果如下图：
 ![](images/image.png)
 ## IV. 可能的改进之处
-task1.2运行耗时728.3秒(APPLE M3 MAX 36G， 且几乎没有其他进程抢占cpu资源，运行前后对比见下图)，比起使用pandas慢很多，可以探索一些加速发生或者更高效的实现
+task1.2运行耗时728.3秒(APPLE M3 MAX 36G， 且几乎没有其他进程抢占cpu资源，运行前后对比见下图)，比起使用pandas慢很多，可以探索一些加速方法或者更高效的实现
 ![](images/image1.png)
 ![](images/image2.png)
 
